@@ -1,0 +1,154 @@
+body {
+    margin: 0px;
+    background-color: #b1f280;
+}
+
+.sidebar {
+    width: 200px;
+    position: fixed;
+    text-align: center;
+    height: 300px;
+    top: 75px;
+    right: 50px;
+    padding: 25px;
+}
+
+.greenstrip {
+    width: 300px;
+    position: fixed;
+    text-align: center;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    padding: 25px;
+    background-color: white;
+}
+
+.SketchBundle,
+.ChibiBundle {
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h5 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+body:hover {
+    cursor: url(https://i.imgur.com/9gQ1Azq.png), auto;
+}
+img:hover, a:hover, button:hover {
+    cursor: url(https://i.imgur.com/eUgBPzt.png), auto;   
+}
+
+.buttons {
+    text-align: center;
+}
+
+.container {
+    position: fixed;
+    width: 25%;
+    height: 85%;
+    top: 5%;
+    left: 1.5%;
+    background-color: white;
+    border: solid 10px black;
+    border-radius: 5px;
+}
+
+
+.scroller {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+button {
+    font-family: 'Baloo Chettan', cursive;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+}
+
+h5 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+}
+
+h1,
+.cost {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 40px;
+}
+
+.cost {
+    margin: 0px;
+    font-size: 40px;
+}
+
+.title {
+    margin: 0px;
+    margin-top: 50px;
+}
+
+h3 {
+    margin-top: -3px;
+    font-family: 'Staatliches', cursive;
+    font-size: 35px;
+
+}
+
+.bar {
+    position: fixed;
+    width: 30%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: black;
+    z-index: -1;
+}
+
+.line {
+    position: absolute;
+    width: 90%;
+    z-index: 1;
+}
+
+.preview {
+    margin-top: 20px;
+}
+
+.color {
+    z-index: -1;
+    position: absolute;
+    width: 90%;
+
+}
+
+.labels {
+    z-index: 2;
+    position: absolute;
+    width: 90%;
+    margin-left: 5%;
+
+}
+.bg {
+    z-index: -2;
+    position: absolute;
+    width: 90%;
+    margin-left: 5%;
+}
